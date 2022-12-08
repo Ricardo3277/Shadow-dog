@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(78,9,121,1) 18%, rgba(0,126,249,1) 67%, rgba(0,108,255,1) 86%);
+}
+
+html {
+  font-family: Poppins, Helvetica, sans-serif;
+}
+
+#canvas1 {
+  border: 5px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+}
+
+#animationDescription {
+    font-size: xx-large;
+    font-weight: bold;
+}
+#header{
+  color: aliceblue;
+  text-align: center;
+  font-family:monospace;
+  margin-top: 5%;
+}
